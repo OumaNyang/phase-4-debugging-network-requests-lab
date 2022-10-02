@@ -67,7 +67,9 @@ developing your own process.
 - Update the number of likes for a toy
 
   - How I debugged:
+  - render toys json data after update  ``render json: toy``
 
 - Donate a toy to Goodwill (and delete it from our database)
 
   - How I debugged:
+  - added destroy to routes ``resources :toys, only: [:index, :create, :update, :destroy]``
